@@ -47,10 +47,12 @@ download source zip
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 run Main.py
 ```bash
-python Main.py```
+python Main.py
+```
 A Gui window will appear and the guide tab wil ltake you from there.
 
 ## License
