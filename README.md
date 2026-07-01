@@ -58,6 +58,15 @@ python Main.py
 ```
 A Gui window will appear and the guide tab wil ltake you from there.
 
+## 4. Build
+1. Choose the features you want in the settings tab
+2. Navigate to the **build** tab and input your **Discord bot token** along with your **gofile api key**.
+3. create a name for the build and choose if you want it to be compiled to a **.py** or **.exe** (Pyinstaller must be installed for a .exe)
+   ```pip install pyinstaller```
+4. Your build will be found in ```gui/compiler/build```
+5. A batch script will be generated if you build the payload to an .exe - simply run the .bat and you will find your executable in ```/dist/```
+            
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
